@@ -1,0 +1,20 @@
+@media (min-width: 992px) {
+    .logo {
+        text-align: right;
+    }
+    
+    .logo-text {
+        text-align: left;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo, .logo-text {
+        text-align: center;
+    }
+}
+
+
+.padding-top-50 {
+    padding-top: 50px;
+}
