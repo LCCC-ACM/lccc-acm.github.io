@@ -22,6 +22,9 @@ $(function(){
           from_name: "LCCC-ACM",
           to: [{
                   "email": "mkoch227@gmail.com"
+              },
+              {
+                  "email": "garrett.j.openshaw@gmail.com"
               }]
             
         }
