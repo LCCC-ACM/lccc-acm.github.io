@@ -3,18 +3,45 @@
         text-align: right;
     }
     
-    .logo-text {
+    .logo-text, .font-icon-text {
         text-align: left;
+    }
+    
+    .font-icon {
+        text-align: right;
+        padding-top: 20px;
     }
 }
 
 @media (max-width: 991px) {
-    .logo, .logo-text {
+    .logo, .logo-text, .font-icon, .font-icon-text {
         text-align: center;
     }
 }
 
+.unstyled {
+    list-style: none;
+}
+
+.unstyled > li {
+    margin-bottom: 10px;
+}
+
+.push-right {
+    padding-left: 15px;
+}
+
+.blue {
+    color: #0000BA;
+}
 
 .padding-top-50 {
     padding-top: 50px;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EEE;
 }

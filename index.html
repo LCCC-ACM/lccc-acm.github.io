@@ -4,6 +4,7 @@
         <title>LCCC-ACM</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/lccc-acm.css">
         <!-- Latest compiled and minified JavaScript -->
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -27,20 +28,15 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#competitive-programming">Competitive Programming</a></li>
                         </ul>
                     </li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -59,27 +55,54 @@
                     </div>
                     <div class="col-md-8 col-sm-12 logo-text">
                         <h1>LCCC-ACM</h1>
-                        <h3>Some other text can go here</h3>
+                        <h4>The LCCC student chapter of the Association for Computing Machinery (LCCC-ACM) is a student organization for computing professionals.</h4>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <h3>Upcoming Events</h3>
-                    <ul>
+            <div class="row" id="about">
+                <div class="col-md-2 col-sm-12 font-icon">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x blue"></i>
+                        <i class="fa fa-info fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="col-md-10 col-sm-12 font-icon-text">
+                    <h1>About</h1>
+                    <p>The LCCC student chapter of the Association for Computing Machinery (LCCC-ACM) is a student organization for computing professionals.  We discuss topics such as Git/GitHub, learn about new (to us) programming languages, take part in programming contests, and more.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row" id="upcoming-events">
+                <div class="col-md-2 col-md-push-10 col-sm-12 font-icon">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-github fa-stack-2x"></i>
+                    </span>
+                </div>
+                <div class="col-md-10 col-sm-12 font-icon-text">
+                    <h1>Upcoming Events</h1>
+                    <ul class="unstyled">
                         <li>
-                            <b>Wed. Oct 1</b></br>
-                            Intro to Git/Github and Java AI Project
+                            <b>Wed. Oct 1</b>
+                            Intro to Git/GitHub and Java AI Project
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-8 col-sm-12">
-                    <h3>Competive Programming Resources</h3>
-                    <ul>
+            </div>
+            <br>
+            <div class="row" id="competitive-programming">
+                <div class="col-md-2 col-sm-12 font-icon">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x blue"></i>
+                        <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="col-md-10 col-sm-12 font-icon-text">
+                    <h1>Competitive Programming Resources</h1>
+                    <ul class="unstyled">
                         <li>
-                            <b>Competitive Programming</b> by Steven Halim and Felix Halim </br>
+                            <b>Competitive Programming</b> by Steven Halim and Felix Halim <br>
                             Download the book <a href="http://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf">here</a>.
                         </li>
                         <li>
@@ -87,9 +110,30 @@
                             See the <a href="http://web.stanford.edu/class/cs97si/">course page</a>.
                         </li>
                     </ul>
-
+                </div>
+            </div>
+            <br>
+            <div class="row" id="contact">
+                <div class="col-md-2 col-md-push-10 col-sm-12 font-icon">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x dark-gray"></i>
+                        <i class="fa fa-at fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="col-md-10 col-sm-12 font-icon-text">
+                    <h1>Contact</h1>
+                    <p>If you would like to get in touch with a member of the LCCC-ACM, we'll have contact information available shortly.</p>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>&copy;2014 LCCC-ACM. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
