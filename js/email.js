@@ -29,11 +29,11 @@ $(function(){
     });
     
     xhr.done(function(data) {
-      $('#feedback').addClass('alert').addClass('alert-success').append('<i class="fa fa-check-circle"></i> Your message was successfully sent!');
+      $('#feedback').addClass('alert alert-success').append('<i class="fa fa-check-circle"></i> Your message was successfully sent!');
     });
     
     xhr.fail(function(jqXHR, textStatus, errorThrown) {
-      $('#feedback').addClass('alert').addClass('alert-danger').append('<i class="fa fa-times-circle"></i> An error occurred when trying to send your contact request. Please try again later');
+      $('#feedback').addClass('alert alert-danger').append('<i class="fa fa-times-circle"></i> An error occurred when trying to send your contact request. Please try again later');
     });
     
   });
