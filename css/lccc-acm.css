@@ -11,16 +11,21 @@
         text-align: right;
         padding-top: 20px;
     }
+    
+    .unstyled {
+        list-style: none;
+    }
 }
 
 @media (max-width: 991px) {
     .logo, .logo-text, .font-icon, .font-icon-text {
         text-align: center;
     }
-}
-
-.unstyled {
-    list-style: none;
+    
+    .unstyled {
+        list-style: none;
+        padding: 0;
+    }
 }
 
 .unstyled > li {
