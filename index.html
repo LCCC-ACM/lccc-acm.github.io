@@ -71,17 +71,62 @@
                 <div class="col-md-2 col-md-push-10 col-sm-12 font-icon">
                     <span class="fa-stack fa-3x">
                         <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-html5 fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
                     </span>
                 </div>
                 <div class="col-md-10 col-sm-12 font-icon-text">
                     <h1>Upcoming Events</h1>
                     <ul class="unstyled">
                         <li>
-                            <b>Wed. Nov 26</b> No meeting - Thanksgiving<br/>
-                            <b>Wed. Dec 3 - 6:30p</b> Building a basic web application
+                            <b>Wed. Dec 3 - 6:30p</b> Building a basic web application<br>
+                            Please follow this <a href="#" data-toggle="modal" data-target="#startupGuide">startup guide</a> prior to the meeting.
                         </li>
                     </ul>
+
+                    <div class="modal fade" id="startupGuide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Getting Started For Building A Basic Web Application</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h4><i class="fa fa-windows"></i> Windows</h4>
+                                            <ol>
+                                                <li>Install Git at <a href="http://git-scm.com/" target="_blank">http://git-scm.com/</a>. Recommended installation options:
+                                                    <ul>
+                                                        <li>In the <b>Selected Components</b> section: leave as default: Windows Explorer integration, Git Bash Here, ...</li>
+                                                        <li>In the <b>Adjusting your PATH environment</b> section: select <code>Use Git from the Windows Command Prompt</code></li>
+                                                        <li>In the <b>Configure the line ending conversions</b> section: select <code>Checkout as-is, commit as-is</code></li>
+                                                    </ul>
+                                                </li>
+                                                <li>Intall NodeJS at <a href="http://nodejs.org" target="_blank">http://nodejs.org</a>
+                                                    <ul>
+                                                        <li>Just click the install button on the site and run the downloaded .msi</li>
+                                                        <li>Default install options should be enough</li>
+                                                        <li>You <b>must</b> restart your computer once done installing</li>
+                                                    </ul>
+                                                </li>
+                                            </ol>
+                                            <h4><i class="fa fa-apple"></i> OS X</h4>
+                                            <p>Git is installed by default on OS X. You will only need to install Node JS.</p>
+                                            <ol>
+                                                <li>Install NodeJS at <a href="http://nodejs.org" target="_blank">http://notejs.org</a> by clicking the green "Download" buton. Just execute the <code>.pkg</code> file and keep clicking "Next" until finished.</li>
+                                                <li>Double-check that <code>/usr/local/bin</code> is in your <code>$PATH</code> variable. You can check this by opening a terminal window and typing in <code>echo $PATH</code>. If you need to add the path to your $PATH, you can follow <a href="http://architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion" target="_blank">this guide</a>.</li>
+                                            </ol>
+                                            <h4><i class="fa fa-linux"></i> Linux</h4>
+                                            <p>Perhaps <a href="https://github.com/joyent/node/wiki/installing-node.js-via-package-manager" target="_blank">this guide</a> from the NodeJS GitHub repository can be of help (it has never been tested, though).</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <br>
@@ -168,15 +213,14 @@
             </div>
         </div>
     </div>
-    </div>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p>&copy;2014 LCCC-ACM. All Rights Reserved.</p>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy;2014 LCCC-ACM. All Rights Reserved.</p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-</body>
+    </footer>
+    </body>
 </html>
